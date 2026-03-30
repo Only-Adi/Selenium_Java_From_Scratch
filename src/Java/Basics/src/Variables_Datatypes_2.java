@@ -1,5 +1,6 @@
 
-public class Variables_Datatypes {
+public class Variables_Datatypes_2
+{
 
 	public static void main(String[] args) {
 		
