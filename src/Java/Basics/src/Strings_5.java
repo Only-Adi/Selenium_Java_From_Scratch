@@ -49,6 +49,21 @@ public class Strings_5 {
  			System.out.println(sa[k]);
  		}
  		
+ 		String trim_value =(sa[1]).trim();
+ 		System.out.println(trim_value); // Trim will remove the space 
+ 		
+ 		
+ 		
+ 		String First_Name = "Kashish Sharma";
+
+ 		
+ 		for(int o=0;o<First_Name.length();o++) {
+ 			System.out.println(First_Name.charAt(o));
+ 		}
+ 		
+ 		
+ 		
+ 		
  		
  		
  		
@@ -59,7 +74,38 @@ public class Strings_5 {
 // 		for (int i =0;i<value2.length;i++) {
 // 			System.out.println(value2[i]);
 // 		}
+ 		
 // 		
+ 		
+ 		
+ 		
+ 
+ 		
+ 		String Value8 = "MY NAME IS ADITYA I AM WORKING IN TESTRIQ";
+ 		
+ 		System.out.println(Value8);
+ 		
+ 		
+ 		
+ 		for(int l=0;l<Value8.length();l++) {
+ 			System.out.print(Value8.charAt(l));
+ 		}
+ 		
+ 		System.out.println();
+ 		
+ 		for(int j=Value8.length()-1;j>=0;j--) {
+ 			System.out.print(Value8.charAt(j));
+ 		}
+ 		
+ 		System.out.println();
+ 		
+ 		String [] Array_8 = Value8.split(" ");
+ 		
+ 		for(int h=Array_8.length-1;h>=0;h--) {
+ 			System.out.print(Array_8[h]+" ");
+ 		}
+ 		
+ 		
  		
 	}
 
