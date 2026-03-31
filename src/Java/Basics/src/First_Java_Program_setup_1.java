@@ -1,7 +1,7 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class First_Java_Program_setup_1 {
+public class 1_First_Java_Program_setup {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
